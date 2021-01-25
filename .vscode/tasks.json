@@ -1,0 +1,19 @@
+{
+    "tasks": [
+        {
+            "label": "CompileMain",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+               "-g", "try.c", "-o", "try.exe"
+            ]            
+        },
+        {
+            "type": "shell",
+            "label": "Exécuteur C",
+            "command": ".\\try.exe",
+        },
+        
+    ],
+    "version": "2.0.0"
+}
