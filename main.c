@@ -12,7 +12,7 @@ int main(void)//Fonction, fonction "main" obligatoire car le compilateurla cherc
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-//LES VARIABLES
+//LES VARIABLES a 
 /*
 Plusieurs types de variables:
   "int" pour les entiers positifs et negatifs
