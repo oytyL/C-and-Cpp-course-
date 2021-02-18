@@ -1,5 +1,5 @@
 //PROGRAMMATION EN C
-//Chaque code de chaque video va etre testé soit en le conpilant depuis le cmd ou Visual studio mais TOUS LES CODE SERONT ICI AVEC CHAQUE EXPLICATION
+//Chaque code de chaque video va etre testé soit en le compilant depuis le cmd ou Visual studio mais TOUS LES CODE SERONT ICI AVEC CHAQUE EXPLICATION
 
 //AFFICHER UN TEXTE
 #include <stdio.h> //#include : directive de prépocesseur avec une biblihotèque
@@ -12,7 +12,7 @@ int main(void)//Fonction, fonction "main" obligatoire car le compilateurla cherc
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-//LES VARIABLES a 
+//LES VARIABLES 
 /*
 Plusieurs types de variables:
   "int" pour les entiers positifs et negatifs
@@ -73,7 +73,7 @@ Autres mot pour cultur G :
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-//ENTREZ DE DONNES AU CLAVIER
+//ENTREZ DE DONNÉES AU CLAVIER
 
 /*
 maVariable  : contenu de la variables (ex : maVariable =15;)
@@ -153,7 +153,7 @@ QUE POUR AJOUTER ET SOUSTRAIRE 1 ON PEUT UTILISER LES INCREMENTATION ET DECREMEN
       >= : plus grand ou égal à
 
       && : ET
-      || : OU
+      || : OU 
       !  : NOT
 */
 
@@ -242,6 +242,7 @@ printf("Il a quinze ans = %d\n", quinze_ans);
 
 //LES BOUCLES (While, Do..While et For)
 //sert a parcourir plusieurs choses
+
 //La boucle While : 
 
 #include <stdio.h>
@@ -282,7 +283,7 @@ int main(void)
 {
   int i; //déclaration de la variable
   
-  //ex : for(1 étape; 2 étapa; 3 étape)
+  //ex : for(1 étape; 2 étape; 3 étape)
   for(i = 0/*pour i partant de ici 0*/; i < 5 /*ici représente le tant que*/; i++/*l'incrémentation du i, le pas*/)
   {
     printf("Aya !\n")
@@ -451,7 +452,7 @@ void bonjour(void)
 //------------------main.c------------------ 
 
 #include <stdio.h>
-#include "player.h" //on inclut notre fichier player.h, avec des guillemets car c'est notre fichiers
+#include "player.h" //on inclut notre fichier player.h, avec des guillemets car c'est notre fichier
 
 int main(void)
 {
